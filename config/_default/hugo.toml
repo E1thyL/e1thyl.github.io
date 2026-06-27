@@ -1,0 +1,35 @@
+baseURL = "https://e1thyl.github.io/"
+title = "E1thyL"
+theme = "LoveIt"
+defaultContentLanguage = "zh-cn"
+locale = "zh-CN"
+hasCJKLanguage = true
+enableRobotsTXT = true
+enableGitInfo = false
+paginate = 10
+summaryLength = 120
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[permalinks]
+  posts = "/posts/:sections/:slug/"

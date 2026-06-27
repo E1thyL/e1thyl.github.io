@@ -1,0 +1,123 @@
+[params]
+  version = "0.2.X"
+  description = "想要学会点什么"
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/E1thyL/e1thyl.github.io"
+  fingerprint = true
+  dateFormat = "2006-01-02"
+  title = "E1thyL's blog"
+
+  [params.header.title]
+    name = "E1thyL's blog"
+
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = true
+    copyright = true
+    author = true
+    since = 2026
+
+  [params.section]
+    paginate = 10
+    dateFormat = "01-02"
+
+  [params.list]
+    paginate = 10
+    dateFormat = "01-02"
+
+  [params.app]
+    title = "E1thyL"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
+  [params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    placeholder = "搜索文章标题或内容..."
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+
+  [params.home]
+    rss = 10
+
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/avatar.png"
+      title = "E1thyL"
+      subtitle = "student"
+      typeit = false
+      social = true
+      disclaimer = ""
+
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    GitHub = "E1thyL"
+    Email = "2206143407@qq.com"
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = true
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+
+    [params.page.code]
+      copy = true
+      maxShownLines = 100
+
+    [params.page.math]
+      enable = false
+      copyTex = true
+      mhchem = true
+
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Reddit = true
+      HackerNews = true
+      Weibo = true
+
+    [params.page.comment]
+      enable = true
+
+      [params.page.comment.giscus]
+        enable = false
+        repo = ""
+        repoId = ""
+        category = ""
+        categoryId = ""
+        mapping = "pathname"
+        strict = "0"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        lazyLoading = false
+        lightTheme = "light"
+        darkTheme = "dark"
+        lang = "zh-CN"
+
+  [params.author]
+    name = "E1thyL"
+    email = "2206143407@qq.com"
+    link = "https://github.com/E1thyL"
