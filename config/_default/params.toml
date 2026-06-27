@@ -3,7 +3,7 @@
   description = "想要学会点什么"
   defaultTheme = "auto"
   gitRepo = "https://github.com/E1thyL/e1thyl.github.io"
-  fingerprint = true
+  fingerprint = "sha256"
   dateFormat = "2006-01-02"
   title = "E1thyL's blog"
 
