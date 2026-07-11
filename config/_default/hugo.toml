@@ -1,6 +1,7 @@
 baseURL = "https://e1thyl.github.io/"
 title = "E1thyL"
 theme = "LoveIt"
+favicon = "/favicon.ico"
 defaultContentLanguage = "zh-cn"
 locale = "zh-CN"
 hasCJKLanguage = true
