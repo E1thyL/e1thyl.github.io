@@ -1,6 +1,6 @@
 [params]
   version = "0.2.X"
-  description = "想要学会点什么"
+  description = "A book without reflection is but a cage for the mind."
   defaultTheme = "auto"
   gitRepo = "https://github.com/E1thyL/e1thyl.github.io"
   fingerprint = "sha256"
